@@ -21,8 +21,8 @@
 
 - [ ] ***2. Get the Data***
 
-    - [ ] List the data you need and how much you need.
-    - [ ] Find and document where you can get that data.
+    - [ ] List the data <font size=”1”> you need and how much you need.<font>
+    - [ ] Find and document <font size=”3”> where you can get that data<font>.
     - [ ] Check how much space it will take.
 1. Check legal obligations, and get authorization if necessary. 5. Get access authorizations.
 2. Create a workspace (with enough storage space).
