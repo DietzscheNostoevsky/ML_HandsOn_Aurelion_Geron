@@ -4,6 +4,7 @@
 
 - [x] (for checked checkbox)
 - [ ] (for unchecked checkbox) 
+  
 - [ ] ***1.  Frame the problem and look at the bigger picture***
     - [ ] Define the objective in business terms
     - [ ] How will your solution be used?
@@ -34,9 +35,45 @@
     - [ ] Sample a test set, put it aside, and never look at it (no data snooping!).
   
 - [ ] ***3. Explore the Data to gain insights***
-    - [ ] 
-    - [ ] 
+    - [ ] Note: try to get insights from a field expert for these steps.
+    - [ ] Create a copy of the data for exploration (sampling it down to a manageable size if necessary).
+    - [ ] Create a Jupyter notebook to keep a record of your data exploration. 
+    - [ ] 3. Study each attribute and its characteristics:
+        - [ ] • Name
+        - [ ] • Type (categorical, int/float, bounded/unbounded, text, structured, etc.) 
+        - [ ] • % of missing values
+        - [ ] • Noisiness and type of noise (stochastic, outliers, rounding errors, etc.)
+        - [ ] • Usefulness for the task
+        - [ ] • Type of distribution (Gaussian, uniform, logarithmic, etc.)
+    - [ ] For supervised learning tasks, identify the target attribute(s). 
+    - [ ] Visualize the data.
+    - [ ] Study the correlations between attributes.
+    - [ ] Study how you would solve the problem manually.
+    - [ ] Identify the promising transformations you may want to apply.
+    - [ ] Identify extra data that would be useful (go back to “Get the Data” on page 780 of book). 
+    - [ ] Document what you have learned.
+  
 - [ ] ***4. Prepare the data to better expose the underlying data patterns to ML algos***
+    - [ ] Notes:
+      - [ ] • Work on copies of the data (keep the original dataset intact).
+      - [ ] Write functions for all data transformations you apply, for five reasons:
+        - [ ] So you can easily prepare the data the next time you get a fresh dataset 
+        - [ ] So you can apply these transformations in future projects
+        - [ ] To clean and prepare the test set
+        - [ ] To clean and prepare new data instances once your solution is live
+        - [ ] To make it easy to treat your preparation choices as hyperparameters
+    - [ ] Clean the data:
+      - [ ] Fix or remove outliers (optional).
+      - [ ] Fill in missing values (e.g., with zero, mean, median...) or drop their rows (or columns).
+    - [ ] Perform feature selection (optional):
+      - [ ] Drop the attributes that provide no useful information for the task.
+    - [ ] Perform feature engineering, where appropriate:
+      - [ ] Discretize continuous features.
+      - [ ] Decompose features (e.g., categorical, date/time, etc.).
+      - [ ] Add promising transformations of features (e.g., log(x), sqrt(x), x2, etc.).
+       - [ ] Aggregate features into promising new features.
+   - [ ] Perform feature scaling:
+       - [ ] Standardize or normalize features.
 - [ ] ***5. Explore many different models and shortlist the best*** ones 
 - [ ] ***6. Fine tune the model and combine them into a solution***
 - [ ] ***7. Present the solution***
