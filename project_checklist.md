@@ -74,7 +74,7 @@
        - [ ] Aggregate features into promising new features.
    - [ ] Perform feature scaling:
        - [ ] Standardize or normalize features.
-- [ ] ***5. Explore many different models and shortlist the best*** ones 
+- [ ] ***5. Explore many different models and shortlist the besto ones *** 
 - [ ] ***6. Fine tune the model and combine them into a solution***
 - [ ] ***7. Present the solution***
 - [ ] ***8. Launch, monitor and maintain the system***
