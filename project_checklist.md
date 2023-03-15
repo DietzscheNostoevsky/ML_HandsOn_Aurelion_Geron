@@ -113,4 +113,10 @@
 
 
 - [ ] ***8. Launch, monitor and maintain the system***
+  - [ ] Get your solution ready for production (plug into production data inputs, write unit tests, etc.).
+  - [ ] Write monitoring code to check your system’s live performance at regular inter‐ vals and trigger alerts when it drops:
+      - [ ] Beware of slow degradation: models tend to “rot” as data evolves.
+      - [ ] Measuring performance may require a human pipeline (e.g., via a crowdsourc‐ ing service).
+      - [ ] Also monitor your inputs’ quality (e.g., a malfunctioning sensor sending ran‐ dom values, or another team’s output becoming stale). This is particularly important for online learning systems.
+  - [ ] **Retrain your models on a regular basis on fresh data** (automate as much as possible).
 
