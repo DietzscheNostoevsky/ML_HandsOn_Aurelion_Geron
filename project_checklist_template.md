@@ -1,6 +1,6 @@
-# **Machine Learning Project Checklist**
+# **Machine Learning Project Checklist Template**
 
-# Checklist 
+# Checklist Template
 
 - [x] (for checked checkbox)
 - [ ] (for unchecked checkbox) 
