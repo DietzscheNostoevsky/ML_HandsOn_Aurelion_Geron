@@ -104,7 +104,7 @@
 
 - [ ] ***7. Present the solution***
     - [ ] Document what you have done. 
-    - [ ] 2. Create a nice presentation:
+    - [ ] Create a nice presentation:
         - [ ] Make sure you highlight the big picture first. 
     - [ ] Explain why your solution achieves the business objective.
     - [ ] Don’t forget to present interesting points you noticed along the way:
