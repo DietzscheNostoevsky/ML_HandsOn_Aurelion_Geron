@@ -74,7 +74,22 @@
        - [ ] Aggregate features into promising new features.
    - [ ] Perform feature scaling:
        - [ ] Standardize or normalize features.
-- [ ] ***5. Explore many different models and shortlist the besto ones *** 
+
+
+- [ ] ***5. Explore many different models and shortlist the besto ones*** 
+    - [ ] **Note:** If the data is huge, you may want to sample smaller training sets so you can train many different models in a reasonable time (be aware that this penalizes complex models such as large neural nets or random forests).
+      - [ ] try to automate these steps as much as possible.
+    - [ ] Train many quick-and-dirty models from different categories (e.g., linear, naive Bayes, SVM, random forest, neural net, etc.) using standard parameters.
+    - [ ] Measure and compare their performance:
+        - [ ] For each model, use N-fold cross-validation and compute the mean and stan‐dard deviation of the performance measure on the N folds. 
+    - [ ] Analyze the most significant variables for each algorithm.
+  - [ ] Analyze the types of errors the models make:
+      - [ ] What data would a human have used to avoid these errors
+  - [ ] Perform a quick round of feature selection and engineering
+  - [ ] Perform one or two more quick iterations of the five previous steps.
+  - [ ] Shortlist the top three to five most promising models, preferring models that make different types of errors.
+
+
 - [ ] ***6. Fine tune the model and combine them into a solution***
 - [ ] ***7. Present the solution***
 - [ ] ***8. Launch, monitor and maintain the system***
