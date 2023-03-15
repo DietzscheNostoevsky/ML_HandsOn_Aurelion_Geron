@@ -91,6 +91,16 @@
 
 
 - [ ] ***6. Fine tune the model and combine them into a solution***
+    - [ ] **Note:** You will want to use as much data as possible for this step, especially as you move toward the end of fine-tuning.
+        - [ ] Automate what you can.
+    - [ ]  Fine-tune the hyperparameters using cross-validation:
+        - [ ]  Treat your data transformation choices as hyperparameters, especially when you are not sure about them (e.g., if you’re not sure whether to replace missing values with zeros or with the median value, or to just drop the rows).
+        - [ ]  Unless there are very few hyperparameter values to explore, prefer random search over grid search. If training is very long, you may prefer a Bayesian optimization approach (e.g., using Gaussian process priors, as described by [Jasper Snoek et al.](https://homl.info/134)).
+    - [ ]  Try ensemble methods. Combining your best models will often produce better performance than running them individually
+    - [ ]  Once you are confident about your final model, measure its performance on the test set to estimate the generalization error.
+    - [ ]  **Note:** Don’t tweak your model after measuring the generalization error: you would just start overfitting the test set.
+
+
 - [ ] ***7. Present the solution***
 - [ ] ***8. Launch, monitor and maintain the system***
 
