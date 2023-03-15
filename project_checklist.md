@@ -34,7 +34,7 @@
     - [ ] Sample a test set, put it aside, and never look at it (no data snooping!).
   
 - [ ] ***3. Explore the Data to gain insights***
-    - [ ] sfdfsf
+    - [ ] 
     - [ ] 
 - [ ] ***4. Prepare the data to better expose the underlying data patterns to ML algos***
 - [ ] ***5. Explore many different models and shortlist the best*** ones 
