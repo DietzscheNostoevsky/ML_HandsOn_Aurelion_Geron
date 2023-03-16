@@ -39,7 +39,7 @@
     - [ ] **Note:** try to get insights from a field expert for these steps.
     - [ ] Create a copy of the data for exploration (sampling it down to a manageable size if necessary).
     - [ ] Create a Jupyter notebook to keep a record of your data exploration. 
-    - [ ] 3. Study each attribute and its characteristics:
+    - [ ] Study each attribute and its characteristics:
         - [ ] • Name
         - [ ] • Type (categorical, int/float, bounded/unbounded, text, structured, etc.) 
         - [ ] • % of missing values
