@@ -10,4 +10,10 @@ And at the end combine the results on both training to speed up the training pro
 
 
 The directory contains 3 files : 
-        1. 
+        1. colab_training.py
+        2. home_training.py
+        3. combine_results.py
+   
+The idea is to run the first two files simultaneously on differnt platforms, and combine the results at the end. 
+
+Using MNIST dataset to test 
